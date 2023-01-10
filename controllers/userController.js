@@ -1,11 +1,11 @@
 const UserModelApiTest = require("../model/userModel");
 exports.getAllUser = async (req, res) => {
   try {
-    const users = await UserModelApiTest.find();
+    // const users = await UserModelApiTest.find();
     res.status(200).json({
       status: "success",
-      lengt: users.length,
-      data: users,
+      // lengt: users.length,
+      // data: users,
     });
   } catch (error) {
     res.status(500).json({
