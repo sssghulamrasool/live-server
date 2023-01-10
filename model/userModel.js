@@ -13,6 +13,6 @@ const userSchema = new mongoose.Schema({
   imageCover: String,
 });
 
-const UserModelApiTest = mongoose.model("user", userSchema);
+const UserModelApiTest = mongoose.model("Users", userSchema);
 
 module.exports = UserModelApiTest;
