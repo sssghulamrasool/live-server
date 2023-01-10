@@ -43,9 +43,9 @@ exports.postUser = async (req, res) => {
 
 exports.deleteUser = async (req, res) => {
   try {
-    const deletedata = await UserModelApiTest.deleteOne({
-      _id: req.params.id,
-    });
+    // const deletedata = await UserModelApiTest.deleteOne({
+    //   _id: req.params.id,
+    // });
     res.status(202).json({
       message: "success",
     });
